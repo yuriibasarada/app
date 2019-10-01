@@ -1,0 +1,17 @@
+{
+  "name": "yuriyshkvarc/sh-app",
+  "description": "app for project",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Yuriy Shkvarc",
+      "email": "yuriyshkvarc@gmail.com"
+    }
+  ],
+  "require": {
+    "php" : ">=5.6.0"
+  },
+  "autoload": {
+    "classmap": ["shApp"]
+  }
+}
