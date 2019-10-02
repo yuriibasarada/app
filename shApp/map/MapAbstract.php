@@ -5,7 +5,7 @@ namespace shApp\map;
 
 
 use shApp\request\RequestInterface;
-use shCore\database\DatabaseConfigPDO;
+use shCore\database\DatabaseConfigPdo;
 use shCore\database\DatabasePdo;
 use shCore\database\ext\Crud;
 use shCore\storage\session\SessionInterface;
@@ -14,7 +14,7 @@ use shApp\map\MapConfigInterface as MapConfig;
 abstract class MapAbstract
 {
     const DATABASE_CLASS = DatabasePdo::class;
-    const DATABASE_CONFIG_CLASS = DatabaseConfigPDO::class;
+    const DATABASE_CONFIG_CLASS = DatabaseConfigPdo::class;
     const CRUD_CLASS = Crud::class;
 
     /**
