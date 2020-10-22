@@ -1,22 +1,22 @@
 <?php
 
 
-namespace shApp\app;
+namespace Core\app;
 
 
-use shApp\request\Request;
-use shApp\request\RequestInterface;
-use shApp\router\Handler;
-use shApp\router\HandlerInterface;
-use shApp\router\Router;
-use shApp\router\RouterInterface;
-use shCore\storage\session\SessionInterface;
-use shCore\storage\session\SessionNative;
+use Core\request\Request;
+use Core\request\RequestInterface;
+use Core\router\Handler;
+use Core\router\HandlerInterface;
+use Core\router\Router;
+use Core\router\RouterInterface;
+use Core\storage\session\SessionInterface;
+use Core\storage\session\SessionNative;
 
 /**
  * Абстрактная реализация загрузчика приложения
  *
- * @package shApp\app
+ * @package App\app
  */
 abstract class AppAbstract implements AppInterface
 {

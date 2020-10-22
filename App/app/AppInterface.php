@@ -1,11 +1,11 @@
 <?php
 
 
-namespace shApp\app;
+namespace Core\app;
 
 /**
  * Interface AppInterface
- * @package shApp\app
+ * @package App\app
  */
 interface AppInterface
 {

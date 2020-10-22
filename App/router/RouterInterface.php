@@ -1,11 +1,11 @@
 <?php
 
 
-namespace shApp\router;
+namespace Core\router;
 
 /**
  * Interface RouterInterface
- * @package shApp\router
+ * @package App\router
  */
 interface RouterInterface
 {

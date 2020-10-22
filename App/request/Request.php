@@ -1,13 +1,13 @@
 <?php
 
 
-namespace shApp\request;
+namespace Core\request;
 
 /**
  * Класс для хранения Cookies, POST/GET, Тела запроса, пути. И обращения к ним.
  *
  * Class Request
- * @package shApp\request
+ * @package App\request
  */
 class Request implements RequestInterface
 {

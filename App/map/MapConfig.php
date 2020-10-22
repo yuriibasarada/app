@@ -1,11 +1,11 @@
 <?php
 
 
-namespace shApp\map;
+namespace Core\map;
 
 
-use shApp\request\RequestInterface;
-use shCore\storage\session\SessionInterface;
+use Core\request\RequestInterface;
+use Core\storage\session\SessionInterface;
 
 class MapConfig implements MapConfigInterface
 {

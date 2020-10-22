@@ -1,12 +1,12 @@
 <?php
 
 
-namespace shApp\request;
+namespace Core\request;
 
 /**
  * Interface RequestInterface
  *
- * @package shApp\request
+ * @package App\request
  */
 interface RequestInterface
 {

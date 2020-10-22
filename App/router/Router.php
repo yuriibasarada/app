@@ -1,13 +1,13 @@
 <?php
 
 
-namespace shApp\router;
+namespace Core\router;
 
 
 /**
  * Класс для получения маршрута (При помощи обращения к методу класса)
  * Class Router
- * @package shApp\router
+ * @package App\router
  */
 class Router implements RouterInterface
 {

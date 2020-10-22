@@ -1,14 +1,14 @@
 <?php
 
 
-namespace shApp\map;
+namespace Core\map;
 
 
-use shCore\database\DatabaseInterface;
-use shCore\database\DatabasePdo;
-use shCore\database\ResultInterface;
-use shCore\database\ResultPdo;
-use shCore\error\CoreException;
+use Core\database\DatabaseInterface;
+use Core\database\DatabasePdo;
+use Core\database\ResultInterface;
+use Core\database\ResultPdo;
+use Core\error\CoreException;
 
 abstract class MapExtAbstract extends MapAbstract
 {

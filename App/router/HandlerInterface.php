@@ -1,13 +1,13 @@
 <?php
 
 
-namespace shApp\router;
+namespace Core\router;
 
 
 /**
  * Interface HandlerInterface
  *
- * @package shApp\router
+ * @package App\router
  */
 interface HandlerInterface
 {

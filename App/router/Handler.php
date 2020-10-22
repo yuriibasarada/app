@@ -1,14 +1,14 @@
 <?php
 
 
-namespace shApp\router;
+namespace Core\router;
 
 
-use shApp\error\AppException;
-use shApp\map\MapConfig;
-use shApp\map\MapConfigInterface;
-use shApp\request\RequestInterface;
-use shCore\storage\session\SessionInterface;
+use Core\error\AppException;
+use Core\map\MapConfig;
+use Core\map\MapConfigInterface;
+use Core\request\RequestInterface;
+use Core\storage\session\SessionInterface;
 
 class Handler implements HandlerInterface
 {

@@ -1,15 +1,15 @@
 <?php
 
 
-namespace shApp\map;
+namespace Core\map;
 
 
-use shApp\request\RequestInterface;
-use shCore\database\DatabaseConfigPdo;
-use shCore\database\DatabasePdo;
-use shCore\database\ext\Crud;
-use shCore\storage\session\SessionInterface;
-use shApp\map\MapConfigInterface as MapConfig;
+use Core\request\RequestInterface;
+use Core\database\DatabaseConfigPdo;
+use Core\database\DatabasePdo;
+use Core\database\ext\Crud;
+use Core\storage\session\SessionInterface;
+use Core\map\MapConfigInterface as MapConfig;
 
 abstract class MapAbstract
 {

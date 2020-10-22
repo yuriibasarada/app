@@ -1,10 +1,10 @@
 <?php
 
 
-namespace shApp\error;
+namespace Core\error;
 
 
-use shCore\error\CoreException;
+use Core\error\CoreException;
 
 class AppException extends CoreException
 {

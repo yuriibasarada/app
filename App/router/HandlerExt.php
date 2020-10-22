@@ -1,11 +1,11 @@
 <?php
 
 
-namespace shApp\router;
+namespace Core\router;
 
 
-use shApp\error\AppException;
-use shApp\map\MapExtAbstract;
+use Core\error\AppException;
+use Core\map\MapExtAbstract;
 
 class HandlerExt extends Handler
 {
